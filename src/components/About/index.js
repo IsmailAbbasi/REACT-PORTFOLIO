@@ -1,4 +1,5 @@
 import './index.scss'
+import {Loader} from 'react-loaders'
 import { useEffect,useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -15,13 +16,14 @@ useEffect(() => {
 }, []);
 
 return (
+    <>
     <div className="container about-page">
         
     <div className="text-zone">
     <h1>
         <AnimatedLetters
         letterClass={letterClass}
-    strArray={['A','b','o','u','t',' ','M','e',]}
+    strArray={['A','b','o','u','t', ' ','M','e',]}
     idx={15}/>
     </h1>
     <p>Highly skilled and motivated web developer with expertise in React.js and Python, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
@@ -57,6 +59,8 @@ return (
     </div>
     </div>
     </div>
+    <Loader type="pacman"/>
+    </>
 )
 }
 export default About

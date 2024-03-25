@@ -23,7 +23,7 @@ return (
     <h1>
         <AnimatedLetters
         letterClass={letterClass}
-    strArray={['A','b','o','u','t', ' ','M','e',]}
+    strArray={['A','b','o','u','t', '⠀','M','e',]}
     idx={15}/>
     </h1>
     <p>Highly skilled and motivated web developer with expertise in React.js and Python, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>

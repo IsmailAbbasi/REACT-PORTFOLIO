@@ -48,7 +48,7 @@ const sendEmail = (e) => {
                 <h1>
                  <AnimatedLetters 
                  letterClass={letterClass}
-                 strArray={['C','o','n','t','a','c','t', ' ','m','e',]}   
+                 strArray={['C','o','n','t','a','c','t', '⠀','m','e',]}   
                  idx={15}/>
                 </h1>
                 <p>

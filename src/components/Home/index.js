@@ -12,7 +12,7 @@ import {faPython,faHtml5,faCss3,faReact,faJsSquare,faGithub} from '@fortawesome/
 const Home  = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
     const nameArray = ['s','m','a','i','l']
-    const jobArray =  ['w','e','b',' ', 'd','e','v','e','l','o','p','e','r','.']
+    const jobArray =  ['w','e','b','⠀', 'd','e','v','e','l','o','p','e','r','.']
     
     useEffect(() => {
         const timeoutId = setTimeout(() => {

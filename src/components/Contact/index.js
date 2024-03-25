@@ -3,8 +3,12 @@ import './index.scss'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect,useState,useRef } from 'react'
+import { useNavigate } from "react-router-dom";
+
 
 const Contact = () => {
+    const navigate = useNavigate();
+
     const [letterClass,setLetterClass] = useState('text-animate')
     const refForm = useRef()
 useEffect(() => {
@@ -16,7 +20,8 @@ useEffect(() => {
 
 const sendEmail = (e) => {
    e.preventDefault() 
-   emailjs.sendForm('service_idlvxs3', 'template_q2thezm', refForm.current, 'Bf022dsU_9-EjjCwm'
+   emailjs.sendForm('service_idlvxs3', 'template_q2thezm', refForm.current, 'Bf022dsU_9-EjjCwm',
+   navigate("/"),
 
 
 //    emailjs.sendForm(

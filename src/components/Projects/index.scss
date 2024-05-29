@@ -1,0 +1,24 @@
+
+
+
+
+
+    // background-color: rgb(40, 47, 66);
+ 
+
+
+
+.projects a {
+    color: rgb(241, 69, 69);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.projects a:hover {
+    color: rgb(196, 30, 30);
+}
+
+.projects a:active {
+    color: rgb(105, 84, 194);
+}

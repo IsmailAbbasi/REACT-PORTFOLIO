@@ -26,10 +26,10 @@ return (
     strArray={['A','b','o','u','t', '⠀','M','e',]}
     idx={15}/>
     </h1>
-    <p>Highly skilled and motivated web developer with expertise in React.js and Python, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
+    <p>Highly skilled and motivated web developer with expertise in React.js and Django, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
     <p> Technical Skills:
     Frontend: React.js, HTML5, CSS3, JavaScript
-    Backend: Python, Flask
+    Backend: Python, Django
     Version Control: Git, GitHub
     Other: APIs, JSON, Bootstrap</p>
     <p>Some hobbies :P

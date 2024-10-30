@@ -20,7 +20,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="projects" element={<Projects />} />
           <Route path="terms" element={<Terms />} />
-          <Route path="privacy" element={<Privacy />} />  // Use lowercase 'p'
+          <Route path="privacy" element={<Privacy />} /> 
           <Route path="refund" element={<Refund />} />
         </Route>
       </Routes>

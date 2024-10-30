@@ -53,6 +53,14 @@ idx={22}/>
 </h1>
 <h2>Frontend Developer/ Javascript / Python</h2>
 <Link to ="/contact"  className='flat-button'>CONTACT ME</Link>
+
+</div>
+
+
+<div class="bottom-right-links">
+    <a href="/terms">Terms and Conditions</a>
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/refunds">Refunds and Cancellations</a>
 </div>
 
 <div className='stage-cube-cont'>
@@ -77,6 +85,7 @@ idx={22}/>
     </div>
     </div>
     </div>
+    
     </div>
 
         

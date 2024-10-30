@@ -84,3 +84,53 @@
         }
     }
 }
+
+a {
+    color: #ffffff; /* Primary link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+a:hover {
+    color: #003366; /* Darker color on hover */
+    text-decoration: underline;
+    transform: scale(1.05); /* Slight scale on hover */
+}
+
+/* Active Link */
+a:active {
+    color: #000; /* Even darker color when clicking */
+}
+/* Container for bottom-right links */
+.bottom-right-links {
+    position: fixed;
+    bottom: 20px;  /* Distance from bottom */
+    right: 20px;   /* Distance from right */
+    text-align: right;
+    z-index: 1000; /* Keep it on top of other elements */
+}
+
+/* Styling for each link */
+.bottom-right-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin: 5px 0; /* Space between links */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover and Active Effects */
+.bottom-right-links a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.bottom-right-links a:active {
+    color: #003366;
+}

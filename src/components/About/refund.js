@@ -4,8 +4,6 @@ import { useEffect,useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPython,faHtml5,faCss3,faReact,faJsSquare,faGithub} from '@fortawesome/free-brands-svg-icons'
-import React from 'react';
-import { Link } from 'react-router-dom';
 
 const About = () => {
 const [letterClass,setLetterClass] = useState('text-animate')
@@ -27,24 +25,16 @@ return (
         letterClass={letterClass}
     strArray={['A','b','o','u','t', '⠀','M','e',]}
     idx={15}/>
-    </h1>
-    <p>Highly skilled and motivated web developer with expertise in React.js and Django, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
-    <p> Technical Skills:
-    Frontend: React.js, HTML5, CSS3, JavaScript
-    Backend: Python, Django
-    Version Control: Git, GitHub
-    Other: APIs, JSON, Bootstrap</p>
-    <p>Some hobbies :P
-        Sports, Tech, Photography
-    </p>
+    </h1><p>
+    Refund and Cancellation Policy
+Eligibility for Refunds
+Refunds are provided in line with our services and products. To initiate a refund, users must contact our support team within [specific time frame, e.g., 7 days] of the purchase.
 
-    <p>
-    <Link to="/terms">Terms and Conditions</Link>
-    </p>
-    <p> 
-    <Link to="/privacy">Privacy</Link> </p>
-    <p>
-    <Link to="/refund">Refunds</Link> </p>
+Processing Time
+Refunds are processed within 5-7 working days from the date of approval. The refunded amount will be credited to the original payment method or bank account.
+
+Non-Refundable Cases
+Certain situations may not qualify for refunds, including violations of terms or cases where service has already been provided.  </p>
     </div>
     <div className='stage-cube-cont'>
     <div className='cubespinner'>

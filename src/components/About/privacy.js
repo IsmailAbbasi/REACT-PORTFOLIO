@@ -6,7 +6,6 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPython,faHtml5,faCss3,faReact,faJsSquare,faGithub} from '@fortawesome/free-brands-svg-icons'
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const About = () => {
 const [letterClass,setLetterClass] = useState('text-animate')
 useEffect(() => {
@@ -28,23 +27,20 @@ return (
     strArray={['A','b','o','u','t', '⠀','M','e',]}
     idx={15}/>
     </h1>
-    <p>Highly skilled and motivated web developer with expertise in React.js and Django, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
-    <p> Technical Skills:
-    Frontend: React.js, HTML5, CSS3, JavaScript
-    Backend: Python, Django
-    Version Control: Git, GitHub
-    Other: APIs, JSON, Bootstrap</p>
-    <p>Some hobbies :P
-        Sports, Tech, Photography
-    </p>
+    <p>Privacy Policy
+Data Collection
+We collect personal information, including names, contact details, and any other data needed to enhance user experience. This information is securely stored and never shared without consent.
 
-    <p>
-    <Link to="/terms">Terms and Conditions</Link>
-    </p>
-    <p> 
-    <Link to="/privacy">Privacy</Link> </p>
-    <p>
-    <Link to="/refund">Refunds</Link> </p>
+Use of Information
+We use the collected data to personalize the user experience, improve our services, and communicate with users. Any additional use will be specified and requires user consent.
+
+Data Security
+Our team prioritizes data security and implements industry-standard security practices to protect user information.
+
+User Rights
+Users may request access to, correction of, or deletion of their data. Contact us at [Email Address] for data-related requests.
+
+</p>
     </div>
     <div className='stage-cube-cont'>
     <div className='cubespinner'>

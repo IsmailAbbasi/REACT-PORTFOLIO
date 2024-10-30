@@ -53,6 +53,7 @@ const sendEmail = (e) => {
                 </h1>
                 <p>
                  I am interested in Internships. However, if you have other request or question, you can contact me using below form either.  
+                 Contact me on - ismailabbasi118@gmail.com
                 </p>
                 <div className  ='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>

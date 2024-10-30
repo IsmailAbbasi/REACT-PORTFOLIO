@@ -4,8 +4,6 @@ import { useEffect,useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPython,faHtml5,faCss3,faReact,faJsSquare,faGithub} from '@fortawesome/free-brands-svg-icons'
-import React from 'react';
-import { Link } from 'react-router-dom';
 
 const About = () => {
 const [letterClass,setLetterClass] = useState('text-animate')
@@ -28,23 +26,18 @@ return (
     strArray={['A','b','o','u','t', '⠀','M','e',]}
     idx={15}/>
     </h1>
-    <p>Highly skilled and motivated web developer with expertise in React.js and Django, seeking challenging opportunities to contribute my technical skills and creativity to innovative projects. I am persuing Btech CSE from Jamia Hamdard , New Delhi</p>
-    <p> Technical Skills:
-    Frontend: React.js, HTML5, CSS3, JavaScript
-    Backend: Python, Django
-    Version Control: Git, GitHub
-    Other: APIs, JSON, Bootstrap</p>
-    <p>Some hobbies :P
-        Sports, Tech, Photography
-    </p>
+    <p>Terms and Conditions
+Introduction
+Welcome to our application. By accessing or using our services, you agree to be bound by these Terms and Conditions. Please read them carefully. If you do not agree with any part, please discontinue use of our services.
 
-    <p>
-    <Link to="/terms">Terms and Conditions</Link>
-    </p>
-    <p> 
-    <Link to="/privacy">Privacy</Link> </p>
-    <p>
-    <Link to="/refund">Refunds</Link> </p>
+Services Provided
+Our app provides a platform for educational resources and teacher-student interactions. We reserve the right to update or modify our services at any time without prior notice.
+
+User Responsibilities
+Users are responsible for providing accurate information and for maintaining the security of their account credentials. Any misuse of our platform will lead to account suspension or termination.
+
+Limitation of Liability
+Our platform is provided on an "as is" basis. We are not liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our services.   </p>
     </div>
     <div className='stage-cube-cont'>
     <div className='cubespinner'>

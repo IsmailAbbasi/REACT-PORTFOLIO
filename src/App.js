@@ -1,4 +1,5 @@
 // src/App.js
+
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
@@ -15,12 +16,12 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+        <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="projects" element={<Projects />} />
           <Route path="terms" element={<Terms />} />
-          <Route path="privacy" element={<Privacy />} /> 
+          <Route path="privacy" element={<Privacy />} />
           <Route path="refund" element={<Refund />} />
 
         </Route>

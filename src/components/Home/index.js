@@ -12,7 +12,7 @@ import {faPython,faHtml5,faCss3,faReact,faJsSquare,faGithub} from '@fortawesome/
 const Home  = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
     const nameArray = ['s','m','a','i','l']
-    const jobArray =  ['w','e','b','⠀', 'd','e','v','e','l','o','p','e','r','.']
+    const jobArray =  ['F','u','l','l','s','t','a','c','k','⠀', 'D','e','v','e','l','o','p','e','r','.']
     
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -57,11 +57,11 @@ idx={22}/>
 </div>
 
 
-<div class="bottom-right-links">
+{/* <div class="bottom-right-links">
     <a href="/terms">Terms and Conditions</a>
     <a href="/privacy">Privacy Policy</a>
     <a href="/refunds">Refunds and Cancellations</a>
-</div>
+</div> */}
 
 <div className='stage-cube-cont'>
     <div className='cubespinner'>

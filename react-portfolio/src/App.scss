@@ -1,0 +1,62 @@
+$primary-color: #ffd700;
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+// @import 'path/to/loaders.css/src/animations/pacman.scss';
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(./assets/fonts/helvetica-neu.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url(./assets/fonts/LaBelleAurore.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(./assets/fonts/CoolveticaRg-Regular.woff2) format('woff2');
+}
+input,
+textarea{
+  font-family:'Helvetica Neue';
+}
+.loader-active {
+ display: block; 
+ position: absolute;
+ left: 0;
+ right: 0;
+ margin: auto;
+ top: 0;
+ bottom: 0;
+ width: 50px;
+ height: 50px;
+ animation: fadeOut 1s 1s;
+ animation-fill-mode: forwards;
+}
+
+// Background gradient animation new code
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body, html, #root {
+  height: 100%;
+}
+
+// body, .App {
+//   background: linear-gradient(135deg, #141e30, #243b55, #1a2a6c);
+//   background-size: 200% 200%;
+//   animation: gradient 15s ease infinite;
+// }
+body, .App {
+  background: linear-gradient(135deg, #141e30, #243b55, #1a2a6c);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+// Make sure this isn't conflicting with other background settings
+.container {
+  background: transparent;
+}

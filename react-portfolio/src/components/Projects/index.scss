@@ -1,0 +1,131 @@
+// background-color: rgb(40, 47, 66);
+
+.projects {
+    h1, h2 {
+        @media screen and (max-width: 768px) {
+            font-size: 42px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            font-size: 32px;
+        }
+    }
+    
+    h3 {
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            font-size: 18px;
+        }
+    }
+    
+    p {
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            font-size: 12px;
+        }
+    }
+}
+
+.projects a {
+    color: rgb(241, 69, 69);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+    }
+}
+
+.projects a:hover {
+    color: rgb(196, 30, 30);
+}
+
+.projects a:active {
+    color: rgb(105, 84, 194);
+}
+
+// Project title responsive sizing - specifically target the main heading
+.projects .page-title {
+    @media screen and (max-width: 768px) {
+        font-size: 34px;
+        margin-bottom: 25px;
+        white-space: nowrap; // Prevent wrapping
+        letter-spacing: -0.5px; // Tighter letter spacing for better fit
+    }
+    
+    @media screen and (max-width: 480px) {
+        font-size: 26px;
+        margin-bottom: 20px;
+        white-space: nowrap;
+        letter-spacing: -0.5px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        font-size: 22px; // Even smaller for very small devices
+    }
+}
+
+// Add or update these specific styles for the page title
+
+// Specifically target the animated letters inside the page title
+.page-title {
+    @media screen and (max-width: 768px) {
+        font-size: 32px !important; // Override any other styles
+        margin-bottom: 20px;
+        
+        span {
+            font-size: 32px !important; // Target the individual animated letters
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        font-size: 24px !important;
+        margin-bottom: 15px;
+        letter-spacing: -1px !important; // Tighter spacing
+        
+        span {
+            font-size: 24px !important;
+            letter-spacing: -1px !important;
+        }
+    }
+    
+    @media screen and (max-width: 350px) {
+        font-size: 20px !important;
+        
+        span {
+            font-size: 20px !important;
+        }
+    }
+}
+
+// Project containers responsive styling
+.projects .container {
+    @media screen and (max-width: 768px) {
+        padding: 15px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        padding: 10px;
+    }
+}
+
+// If you need to override any styles from AnimatedLetters component
+.text-animate, .text-animated-hover {
+    @media screen and (max-width: 768px) {
+        &._15, &._16, &._17, &._18, &._19, &._20, 
+        &._21, &._22, &._23, &._24, &._25 {
+            font-size: inherit !important;
+        }
+    }
+}

@@ -39,12 +39,13 @@ return (
     </p>
 
     <p>
-    <Link to="/terms">Terms and Conditions</Link>
+    {/* <Link to="/terms">Terms and Conditions</Link> */}
+    <Link to="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing">Download My Resume </Link>
     </p>
-    <p> 
+    {/* <p> 
     <Link to="/privacy">Privacy</Link> </p>
     <p>
-    <Link to="/refund">Refunds</Link> </p>
+    <Link to="/refund">Refunds</Link> </p> */}
     </div>
     <div className='stage-cube-cont'>
     <div className='cubespinner'>

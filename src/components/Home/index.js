@@ -51,12 +51,13 @@ idx={22}/>
 <br/>
 
 </h1>
- <p>
-    {/* <Link to="/terms">Terms and Conditions</Link> */}
-    <Link to="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing">Download My Resume</Link>
-    </p>
+ {/* <p> 
+     <Link to="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing">Download My Resume</Link>
+    </p> 
+     */}
 <h2>Frontend Developer/ Javascript / Python</h2>
-<Link to ="/contact"  className='flat-button'>CONTACT ME</Link>
+<Link to ="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing"  className='flat-button'>Download My Resume</Link>
+<Link to ="/contact"  className='flat-button'>Contact Me</Link>
 
 </div>
 

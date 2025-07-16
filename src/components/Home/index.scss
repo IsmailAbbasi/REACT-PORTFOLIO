@@ -131,6 +131,10 @@
         text-decoration: none;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
+        cursor: pointer;
+        position: relative;
+        z-index: 100;
+        background: transparent;
 
         @media screen and (max-width: 1200px) {
             float: none;
@@ -142,11 +146,27 @@
             padding: 8px 12px;
             letter-spacing: 2px;
             margin-top: 15px;
+            display: block;
+            width: fit-content;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        @media screen and (max-width: 480px) {
+            padding: 10px 15px;
+            font-size: 10px;
+            margin-top: 20px;
         }
 
         &:hover {
             background: #ffd700;
             color: #333;
+        }
+
+        &:active {
+            background: #ffd700;
+            color: #333;
+            transform: scale(0.98);
         }
     }
 }

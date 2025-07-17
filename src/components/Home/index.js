@@ -56,7 +56,7 @@ idx={22}/>
     </p> 
      */}
 <h2>Frontend Developer/ Javascript / Python</h2>
-<Link to ="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing"  className='flat-button'>Download My Resume</Link>
+<Link to ="https://drive.google.com/file/d/1yuYWYXCA4wW0b9ZrEtTqRD3wja1t5SfE/view?usp=sharing"  className='flat-button' target="_blank">Download My Resume</Link>
 <Link to ="/contact"  className='flat-button'>Contact Me</Link>
 
 </div>

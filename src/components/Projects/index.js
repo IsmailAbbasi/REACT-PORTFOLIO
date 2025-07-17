@@ -34,7 +34,8 @@ const About = () => {
                         {/* <p>Check out my <a href="https://riddler-chatbot-app.onrender.com/" target="_blank" rel="noopener noreferrer">CHATBOT</a><br></br> This is chatbot I made using Django </p> */}
                         <p>Check out my <a href="https://netflic.netlify.app/" target="_blank" rel="noopener noreferrer">NETFLIC</a><br></br> Movie recommendation appp made by using ReactJs</p>
                         <p>Check out my <a href="https://usepopcorn-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">MOVIE RATING</a> <br></br>Movie rating app made by ReactJS</p>
-                        <p>Check out my <a href="https://keycryptor-926c7cc2b1ab.herokuapp.com/signup/" target="_blank" rel="noopener noreferrer">KeyCryptor</a> <br></br>A Password Manager App made by using Django and SQLite.</p>
+                        <p>Check out my <a href="https://keycryptor-926c7cc2b1ab.herokuapp.com/signup/" target="_blank" rel="noopener noreferrer">KeyCryptor</a> <br></br>A Password Manager App made using Django and SQLite.</p>
+                        <p>Check out my <a href="https://medicine-records-app.onrender.com/" target="_blank" rel="noopener noreferrer">Medicine Records</a> <br></br>A Medicine Records App made using Django and SQLite.</p>
                     </div>
                 </div>
             </div>
